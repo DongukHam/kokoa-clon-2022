@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Clone</title>
+    
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>    
+        </div>
+        <div class="status-bar__column">
+            <!-- to add unlock icon -->
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-magnifying-glass fa-lg"></i></span>  
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span>
+                <span class="nav__dot">.</span>
+                <i class="fas fa-cog fa-lg"></i>               
+            </span>
+        </div>
+        
+    </header>
+
+    <!-- <a id="friends-display-link">
+        <i class="fa-solid fa-circle-info"></i>
+        Friends' Names Display
+        <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a> -->
+
+    
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="photos/IMG_5381.jpg" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">David Ham</h4>
+                    <div class="user-component__subtitle">
+                        <span class="user-component__subtitle-main">+82-10-3090-7924</span>
+                        <i class="fas fa-circle-exclamation"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>     
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar-check fa-2x"></i>
+                <span>Calendar</span>
+            </div>
+
+            <div class="icon-row__icon"> 
+                <i class="fa fa-box-archive fa-2x"></i>
+                <span class="icon-row__icon-dot">.</span>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-grin-hearts"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-paintbrush"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-calendar-check fa-2x"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa fa-box-archive fa-2x"></i>
+                <span>Openchat</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="#"></i>
+                <span></span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="#"></i>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="more-suggestions">
+            <h4 class="more-suggestins__title">Suggestions</h4>
+            <div class="more-suggestions_icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa friends</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Friends Gem</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Friends Gem</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Friends Gem</span>
+                </div>
+            </div>
+        </div>
+    </main> 
+
+
+
+    <!-- nav>ul>li*4>a -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot">.</span>
+                    <i class="fas fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+
+
+    
+
+    <script 
+        src="https://kit.fontawesome.com/8eaac34a40.js" 
+        crossorigin="anonymous"></script>
+    <!-- script is placesd at the last-->
+</body>
+</html>
