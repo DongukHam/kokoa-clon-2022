@@ -1,0 +1,17 @@
+.settings-part {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 50px 0px;
+  font-weight: 400;
+}
+
+.settings-part_title {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.fa-info {
+  border: 5px solid;
+  border-radius: 1px;
+}
