@@ -1,74 +1,28 @@
-.screen-header_chevron{
-  font-size:25px;
+.settings-list{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 20px;
 }
 
-.settings-parts {
-  padding-bottom:30px;
-  border-bottom: var(--main-border);
-  
-}
-
-.settings-part {
-  display: flex;
+.settings__setting{
+  padding:20px 0px;
+  border-bottom:1px solid rgba(0,0,0,0.03);
+  font-size: 20px;
+  display:flex;
   justify-content: space-between;
-  align-content: center;
-  align-items:center;
-  margin: 5px 10px;
-  font-weight: 450;
-  font-size:25px;
-  text-align: center;
-  padding:30px 0px;
-  border-bottom: 0.5px solid rgba(0,0,0,0.05);
-}
-
-.settings-part:last-child {
-  border:none;
-}
-
-
-
-.settings-part_column{
-  display:flex;
-  justify-content: center;
-  
   align-items: center;
-  
+ 
 }
 
-
-.settings-part_title{
-  margin-left:20px;
+.settings__setting i {
+  opacity: 0.8;
+  margin-right:20px;
+  font-size:22px;
 }
 
-.icon {
-  width:20px;
+.settings__setting_column-subtitle{
+  opacity: 0.5;
 }
 
-.info {
-  border:solid;
-  border-radius: 20px;
-  font-size:15px;
-  width:20px;
-  height:20px;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-}
-
-.settings-part_subtitle{
-  color:rgba(0,0,0,0.5);
-}
-
-.new-badge{
-  margin-left:10px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  font-size:15px;
-  width:24px;
-  height:24px;
-  border-radius: 12px;
-  color:white;
-  font-weight: 600;
+.settings__setting:last-child {
+  border: none;
 }
