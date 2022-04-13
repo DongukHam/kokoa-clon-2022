@@ -22,4 +22,18 @@
 
 .main-chat {
   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat__timestamp {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
