@@ -182,7 +182,7 @@
 .reply .reply__column:first-child,
 .reply .fa-face-smile,
 .reply button{
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 
 
@@ -191,7 +191,7 @@
 .reply:focus-within .fa-face-smile,
 .reply:focus-within button{
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .reply:focus-within input{
