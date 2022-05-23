@@ -34,6 +34,7 @@
 @keyframes hideSplahsScreen {
   from {
     opacity: 1;
+    
   }
   to {
     opacity: 0;
@@ -51,6 +52,19 @@
   justify-content: center;
   align-items: center;
   font-size: 80px;
-  animation: hideSplahsScreen 0.4s ease-in-out forwards;
+  animation: hideSplahsScreen 1s ease-in-out forwards;
   animation-delay: 2s;
+}
+
+@keyframes rotateSplashScreen {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  } 
+}
+
+#splash-screen > .fa-comment{
+  animation: rotateSplashScreen 0.3s ease-in-out forwards;
 }
